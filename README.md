@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/github/license/WeixinCloud/wxcloudrun-express)](https://github.com/WeixinCloud/wxcloudrun-express)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/badge/python-3.7.3-green)
 
-微信第三方平台微管家结合 python Flask 框架模版，由微管家接收消息，业务服务实现简单的计数器读写接口，使用云托管 MySQL 读写、记录计数值。
+微信第三方平台微管家结合 python Flask 框架模板，由微管家接收消息，业务服务实现简单的计数器读写接口，使用云托管 MySQL 读写、记录计数值。
 
 ## 微管家说明
 ### 功能介绍
@@ -35,7 +35,7 @@
     ├── dao.py                  数据库访问模块
     ├── model.py                数据库对应的模型
     ├── response.py             响应结构构造
-    ├── templates               模版目录,包含主页index.html文件
+    ├── templates               模板目录,包含主页index.html文件
     └── views.py                执行响应的代码所在模块  代码逻辑处理主要地点  项目大部分代码在此编写
 ~~~
 
